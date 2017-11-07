@@ -1,4 +1,4 @@
-#vidflix
+# vidflix
 React project - from btholt's frontend masters course. Not finished yet
 Learning - React, Jest, Flow and Redux
 
