@@ -3,7 +3,12 @@ const webpack = require('webpack');
 
 const config = {
   context: __dirname,
-  entry: ['./js/ClientApp.jsx'],
+  entry: [
+    'react-hot-loader/patch',
+    'webpack-dev-server/client?http://localhost8081',
+    'webpack/hot/only-dev-server',
+    './js/ClientApp.jsx',
+  ],
   devtool: process.env.NODE_ENV === 'development' ? 'cheap-eval-source-map' : false,
   output: {
     path: path.resolve(__dirname, 'public'),
