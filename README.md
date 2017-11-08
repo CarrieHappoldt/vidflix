@@ -1,11 +1,11 @@
 # vidflix
 React project - from btholt's frontend masters course. Not finished yet
 
-##To Run
+## To Run
  - `npm run api` - starts rating api
  - `npm run build` - start webpack localhost:8080
 
-##Learned
+## Learned
  - React, Jest, Flow and Redux
 
 
